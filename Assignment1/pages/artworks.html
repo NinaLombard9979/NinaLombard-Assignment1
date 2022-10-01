@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+
+    <style>
+        .main{
+            text-align: center;
+            background-color: lightgray;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: bold;
+        }
+        .content{
+            background-color: rgb(231, 219, 219);
+            text-align: center;
+            align-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .column{
+            width: 33.33%;
+            float: left;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div class="main">
+        <h2>Example of some of my favorite artworks</h2>
+    </div>
+    <br>
+    <div class="row">
+        <div class ="column">
+            <div class = "content">
+            <img src="C:\Users\Nina\Documents\Brainest - workshop\HTML\Assignment1\images\anton2.jpg" alt="Anton Smit" height="380" width="300">
+            <img src="C:\Users\Nina\Documents\Brainest - workshop\HTML\Assignment1\images\antonsmit.jpeg" alt="Anton Smit" height="300" width="380">
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="C:\Users\Nina\Documents\Brainest - workshop\HTML\Assignment1\images\blossoms.jpg" alt="blossoms" height="300" width="300">
+                <img src="C:\Users\Nina\Documents\Brainest - workshop\HTML\Assignment1\images\landscape.jpeg" alt="lanscape" height="300" width="380">
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="C:\Users\Nina\Documents\Brainest - workshop\HTML\Assignment1\images\will.png" alt="drawing of projection" height="500" width="425">
+                <p size="8px">This is an illustration of drawing which forms a Projection that represents a story (for example a war).
+                    Done by William Kentridge - a South African artist.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>

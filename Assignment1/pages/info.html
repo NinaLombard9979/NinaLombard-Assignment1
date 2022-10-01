@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+
+    <style>
+        .main{
+            text-align: center;
+            background-color: rgb(52, 44, 44);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            color: rgb(248, 248, 248);
+        }
+        .content{
+            background-color: rgb(246, 241, 241);
+            text-align: left;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .col1{
+            float: left;
+            width: 33.33%;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Information</h1>
+    </div>
+
+    <div class="row">
+        <div class="col1">
+            <div class="main">
+                <h2>Hobbies</h2>
+            </div>
+            <ul>
+                <li>
+                    <a href="./art.html">Art</a>
+                </li>
+                <li>
+                    <a href="./research.html">Research</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col1">
+                <div class="main">
+                    <h2>Favorite food</h2>
+                    
+                </div>
+                <ul>
+                    <li><a href="https://www.simplyrecipes.com/recipes/lasagna/">Lasagne</a></li>
+                    <li><a href="https://www.simplyrecipes.com/recipes/homemade_pizza/">Pizza</a></li>
+                    <li><a href="https://www.seriouseats.com/smoked-salmon-eggs-benedict-dill-hollandaise-recipe">Eggs Benedict with Salmon</a>
+                    <li><a href="https://www.fifteenspatulas.com/homemade-sushi/">Sushi</a></li>
+                </ul>
+                <br>
+                <p color="grey">Click on the food you'd wish to view the recipe of.</p>
+        </div>
+        <div class="col1">
+            <div class="main">
+                <h2>Favorite TV shows</h2>
+            </div>
+            <a href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory"><img src="/images/bbt.jpg" alt="Big Bang Theory"></a>
+            <a href="https://www.imdb.com/title/tt2306299/"><img src="/images/vikings.jpg" alt="Vikings" height="180" width="250"></a>
+            <a href="https://www.imdb.com/title/tt2661044/"><img src="/images/the100.jpg" alt="The 100" height="180" width="250"></a>
+            <a href="https://en.wikipedia.org/wiki/Gotham_(TV_series)"><img src="/images/gotham.jpg" alt="Gotham" height="180" width="250"></a>
+            <br>
+             <p color="grey">Click on the TV show you'd wish to view.</p>
+        </div>
+    </div>
+        
+    
+
+</body>
+
+</html>
